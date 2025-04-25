@@ -6,47 +6,49 @@
     font-style: normal;
   }
   
-
-
-* {
+  * {
     box-sizing: border-box;
-}
-
-body{
-    background-color: cornflowerblue;
-}
-
-
-
-.static {
+  }
+  
+  body {
+    background-color: #929a94;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .static {
     position: absolute;
     z-index: -1;
-    
-}
-
-.text {
-    font-family: Playwrite RO, cursive;
+  }
+  
+  .text {
+    font-family: 'Playwrite RO', cursive;
     color: rgb(136, 240, 10);
     line-height: 2;
     text-align: center;
-}
-
-h2 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  h2 {
     text-align: center;
     font-size: 100px;
-}
-
-.overlay {
-    font-family: Playwrite RO, cursive;
+    margin: 0;
+  }
+  
+  .overlay {
+    font-family: 'Playwrite RO', cursive;
     text-align: center;
     color: rgb(136, 240, 10);
     line-height: 2;
-}
-
-p {
-    font-family: Amusht;
+  }
+  
+  p {
+    font-family: 'Amusht', 'YourFontName', sans-serif;
     font-size: 100px;
     text-align: center;
     color: blue;
-}
-
+  }
